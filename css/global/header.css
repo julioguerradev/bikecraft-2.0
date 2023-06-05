@@ -12,12 +12,12 @@
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
-    position: relative;
 }
 
 .header-menu a {
     display: inline-block;
     padding: 16px 0;
+    position: relative;
 }
 
 .header-menu a::after {
