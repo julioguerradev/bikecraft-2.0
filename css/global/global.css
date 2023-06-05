@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    color: var(--11);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 ul, p {
+    margin: 0px;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.header-bg {
+    background-color: var(--cor-12);
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+img[src$=".jpg"] {
+    border-radius: 4px;
+}
